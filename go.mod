@@ -1,7 +1,5 @@
-module github.com/nicokaiser/hugo-gallery-starter
+module github.com/ShreySahai/webpage-gallery
 
-go 1.25.5
+go 1.21
 
-require github.com/nicokaiser/hugo-theme-gallery/v4 v4.9.3 // indirect
-
-replace github.com/nicokaiser/hugo-theme-gallery/v4 => ../
+require github.com/nicokaiser/hugo-theme-gallery/v4 v4.9.3
