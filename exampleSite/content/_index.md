@@ -1,11 +1,11 @@
 ---
-description: An example site for hugo-theme-gallery. Images from Unsplash.
-#lastmod: 2023-07-05
-title: Hugo Gallery
+description: A thousand pictures to tell a story
+#lastmod: 2026-01-13
+title: Click Collection
 resources:
-  - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
+  - src: shrey-aerospace.jpg
     params:
-      cover: true # cover of the home page is used for OpenGraph cards, etc.
+      cover: true
 menus:
   main:
     name: Home
@@ -13,5 +13,5 @@ menus:
 # sub-galleries on list pages are sorted by date and weight (descending)
 #cascade:
 #  build:
-#    publishResources: false # do not include full images. Also disable download
+#    publishResources: False # do not include full images. Also disable download
 ---
